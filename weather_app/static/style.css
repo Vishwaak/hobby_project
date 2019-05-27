@@ -1,0 +1,17 @@
+form{
+  display: flex;
+  align-content: center;
+  position: absolute;
+  left: 325px;
+  top:170px;
+  down: auto;
+}
+ h1{
+   display: box;
+   font-size: 75px;
+   text-align: center;
+   color: blue;
+ }
+ body{
+   background-color: yellow;
+ }
