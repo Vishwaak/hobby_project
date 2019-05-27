@@ -1,8 +1,8 @@
 form{
-  display: flex;
+  display: box;
   align-content: center;
   position: absolute;
-  left: 325px;
+  left: 41.5%;
   top:170px;
   down: auto;
 }
@@ -11,7 +11,13 @@ form{
    font-size: 75px;
    text-align: center;
    color: blue;
+
  }
  body{
    background-color: yellow;
  }
+#button{
+  display: block;
+  position: relative;
+    top:150px;
+}
