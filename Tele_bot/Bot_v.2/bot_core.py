@@ -11,5 +11,15 @@ def time(chat ,message , args):
         x = str(datetime.datetime.now())
         chat.send(x)
 
+@bot.command("spam")
+def spam_command(chat , message , args):
+        bts = botogram.Buttons()
+        bts[0].callback("Delete this message" , "Delete")
+
+        chat.send("This is  spam" , attach=bts)
+@bot.callback('Delete')
+def Delete_callback(query , chat ,message):
+        message.delete()
+        query.notify("Spam message deleted . Sorry!")
 if __name__ == "__main__":
     bot.run()
