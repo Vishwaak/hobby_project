@@ -44,4 +44,4 @@ Step 7: Successfully Message sent.
 
 ``` python whatsapp_contacts.py ```
 
-### Credits: vinay
+
